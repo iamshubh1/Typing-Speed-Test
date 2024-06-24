@@ -1,0 +1,46 @@
+<!-- Typing speed test html section -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Typing speed test head section starts here-->
+    <head>
+        <title>Typing Speed Test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <!-- Typing speed test head section ends here-->
+
+    <!-- Typing speed test body section starts here-->
+    <body>
+      <div class="container">
+        <div class="header">
+          <p id="time">Time: <span id="timer">30s</span></p>
+          <p>Mistakes: <span id="mistakes">0</span></p>
+        </div>
+        <div id="quote"></div>
+        <textarea
+          rows="3"
+          id="quote-input"
+          placeholder="Type here after entering the start test button"
+        ></textarea>
+        <button id="start-test" onclick="startTest()">Start Test</button>
+        <button id="stop-test" onclick="displayResult()">Stop Test</button>
+        <button id="btnRefresh" type="button">Restart test</button>
+        <div class="result">
+          <h3>Result</h3>
+          <div class="footer">
+            <p>Accuracy: <span id="accuracy"></span></p>
+            <p>Speed: <span id="wpm"></span></p>
+          </div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </body>
+    <!-- Typing speed test head section ends here-->
+</html>
+<!-- Typing speed test html section ends here-->
