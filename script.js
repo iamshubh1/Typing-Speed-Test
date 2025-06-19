@@ -1,4 +1,4 @@
-const quoteApiUrl = "https://api.quotable.io/random?minLength=80&maxLength=100";
+const quoteApiUrl = "https://quoteslate.vercel.app/api/quotes/random?minLength=120";
 const quoteSection = document.getElementById("quote");
 const userInput = document.getElementById("quote-input");
 let quote = "";
@@ -56,7 +56,7 @@ function timeReduce(){
 const renderNewQuote = async () => {
   const response = await fetch(quoteApiUrl);
   let data = await response.json();
-  quote = data.content;
+  quote = data.quote;
   let arr = quote.split("").map((value) => {
    return "<span class='quote-chars'>" + value + "</span>";
   });
