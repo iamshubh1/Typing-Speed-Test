@@ -82,5 +82,5 @@ Contributions are welcome! Please follow these steps:
 
 For any questions or feedback, feel free to reach out:
 
-- **Email**: [mail@shubhamJha](shubhamjha9721@gmail.com)
+- **Email**: [mail@shubhamJha](mailto:shubhamjha9721@gmail.com)
 - **GitHub**: [iamshubh1](https://github.com/iamshubh1)
